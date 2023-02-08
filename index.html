@@ -8,15 +8,23 @@
 <style>
 
 
- body {
-		 margin: auto;
-				padding: 0;
-		        background-image: linear-gradient(to right, #454545, #454545);
-		       	background-position: center;
-		         position: relative;
-		  		font-family: sans-serif;
-                padding: 0px;
-  }
+body {
+    padding: 0;
+    margin: 0;
+    user-select: none;
+    list-style: none;
+    background: #FFFFFF;
+    /* background: #15455800 url(https://i.imgur.com/dMKZpzm.jpg) fixed; */
+    background-size: cover;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: right;
+    margin: auto;
+    /* position: relative; */
+    background-image: url(https://i.imgur.com/dMKZpzm.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
 	
 .grid-container {
       display: grid;
@@ -24,6 +32,28 @@
       grid-template-columns:  repeat(3,1fr);
 	   grid-gap:5px 5px;
        padding: 10px;		
+}
+h3 {
+    text-align: center;
+    /* text-align: right; */
+    /* padding-right: 65px; */
+    /* padding-top: 2px;
+    font-size: medium; */
+    font-weight: 200;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+header {
+background: url(https://i.imgur.com/DGUkczr.jpg);
+padding:2px;
+color:#fff;
+margin-bottom:10px;
+position:fixed;
+top:0;
+height:60px;
+width:100%;
+box-shadow: 0px 0px 7px black;
+z-index:1;
 }
 	.grid1-container {
       display: grid;
@@ -71,24 +101,65 @@ button:active{border:2px solid #f00;}
 	
 </style>
 
+<style>
+/**********************    اكواد القائمه       **********************/
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #6f0100;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+      text-align: center;
+    font-family: 'Readex Pro', sans-serif;
+
+}
+
+.sidenav a:hover {
+  color: #d9c9c9;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 5px;
+    right: 0;
+  font-size: 15px;
+  margin-left: 0px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+
 </head>
 
 
 
-<body>
+</head>
+<body dir="rtl">
+<header>
 
-<div class="grid1-container">
 
-<div>
-  
+<!--- اسم التطبيق --->
+<CENTER><h3> IRAQITv </h3></CENTER>
 
-	
 
-</div>
-	
-
-	
-	
 <div align="center" class="button">
 	
 <div id="buttons-list">	
@@ -97,7 +168,7 @@ button:active{border:2px solid #f00;}
 <img src="https://i.imgur.com/gfxvEGW.png" 
 	style="border-radius:8px;" height="100px" width="90px" vspace="5px"><h2>قناة الرشيد الفضائية</h2></button>
 <button>
-<a href="https://vopo1.blogspot.com/2023/02/blog-post_2.html?s=https://5d94523502c2d.streamlock.net/alsharqiyalive/mystream/playlist.m3u8">
+<a href="https://iraqichannels.netlify.com/sharq.html>
 <img src="https://i.imgur.com/e4KGfBH.png" 
 style="border-radius:8px;" height="100px" width="90px" vspace="5px"><h2> الشرقية نيوز</h2></button></a>
 
